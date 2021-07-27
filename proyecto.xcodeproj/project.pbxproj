@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1965F626B0B0C100E04275 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE1965F426B0B0C100E04275 /* Texture.cpp */; };
 		FE58413426B0866700DD4E13 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE58413326B0866700DD4E13 /* main.cpp */; };
 		FE58413D26B0877E00DD4E13 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE58413C26B0877E00DD4E13 /* OpenGL.framework */; };
 		FE58413F26B0878F00DD4E13 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE58413E26B0878F00DD4E13 /* GLUT.framework */; };
@@ -28,6 +29,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE1965F326B0AE6B00E04275 /* textura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = textura.png; path = ../../textura.png; sourceTree = "<group>"; };
+		FE1965F426B0B0C100E04275 /* Texture.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		FE1965F526B0B0C100E04275 /* Texture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
+		FE1965FA26B0B11D00E04275 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		FE1965FF26B0B18900E04275 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		FE58413026B0866700DD4E13 /* proyecto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = proyecto; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE58413326B0866700DD4E13 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FE58413C26B0877E00DD4E13 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -73,7 +79,12 @@
 		FE58413226B0866700DD4E13 /* proyecto */ = {
 			isa = PBXGroup;
 			children = (
+				FE1965F326B0AE6B00E04275 /* textura.png */,
 				FE58413326B0866700DD4E13 /* main.cpp */,
+				FE1965F426B0B0C100E04275 /* Texture.cpp */,
+				FE1965F526B0B0C100E04275 /* Texture.h */,
+				FE1965FA26B0B11D00E04275 /* stb_image.h */,
+				FE1965FF26B0B18900E04275 /* Common.h */,
 			);
 			path = proyecto;
 			sourceTree = "<group>";
@@ -147,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE58413426B0866700DD4E13 /* main.cpp in Sources */,
+				FE1965F626B0B0C100E04275 /* Texture.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
